@@ -15,9 +15,11 @@
 ### 🧩 Overview  
 **CHRONIX** is an **AI-powered hardware health prediction system** designed for **real-time monitoring** and **predictive maintenance**.  
 It continuously analyzes **CPU, RAM, Temperature, Torque, and RPM** using **Machine Learning** to forecast potential failures **before they occur**.  
-
-🌀 Featuring a **dark futuristic GUI**, **auto-refresh every second**, and **interactive live graphs** — fully **VIBE CODED** using **PyQt5**, **psutil**, **pandas**, **scikit-learn**, and **matplotlib**.  
+You can share your feedbacks in
+https://discord.gg/tZ28bE8RN
+🌀 Featuring a **dark futuristic GUI**, **auto-refresh every second**, and **interactive live graphs** — fully **VIBE CODED** using **PyQt5**, **psutil**, **pandas**, **scikit-learn**, and **matplotlib**.
 > ⚠️ *Note: The AI ML Bot is externally integrated.*
+
 
 ---
 
