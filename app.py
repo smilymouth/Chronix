@@ -1,12 +1,18 @@
+from flask import Flask, request, jsonify
+import os
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return jsonify({"status": "Chronix AI backend running 🚀"})
+
 @app.route("/ask", methods=["POST"])
-def ask_ai():
+def ask():
     data = request.get_json()
-    question = data.get("query", "")
+    query = data.get("query", "")
+    return jsonify({"response": f"AI says: '{query}' — running fine!"})
 
-    if not question:
-        return jsonify({"error": "No question provided"}), 400
-
-    # Simulate a short, fast response
-    return jsonify({
-        "response": f"AI response for: '{question}'"
-    })
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
