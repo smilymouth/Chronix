@@ -33,13 +33,13 @@ https://discord.gg/tZ28bE8RN
 
 ---
 
-### 💻 Run Chronix MVP  
+### 💻 Run Chronix
 
 Clone the repository and install all required dependencies:
 
 ```bash
-git clone https://github.com/smilymouth/Chronix-MVP.git
-cd Chronix-MVP
+git clone https://github.com/smilymouth/Chronix.git
+cd Chronix
 pip install -r requirements.txt
 python Chronix.py
 If requirements.txt is missing, install manually:
@@ -65,7 +65,7 @@ Torque (Nm)
 Copy code
 Chronix-MVP/
 │
-├── Chronix_MVP.py
+├── Chronix.py
 ├── predictive_maintenance.csv
 ├── requirements.txt
 ├── 925f5c74-2d8f-45b5-9344-f237cfdc8823.png
@@ -84,7 +84,7 @@ matplotlib	Real-time Graphs
 
 📥 Download
 Grab the latest ZIP release directly from GitHub:
-🔗 Download Chronix-MVP
+🔗 Download Chronix
 
 👨‍💻 Developer
 The Smiley Moon
