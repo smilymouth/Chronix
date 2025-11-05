@@ -1,4 +1,4 @@
-# chronix_v5_launch.py — Chronix MVP (Product Hunt launch edition)
+# chronix_launch.py — Chronix MVP 
 import sys
 import os
 import time
