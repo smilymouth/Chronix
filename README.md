@@ -75,16 +75,6 @@ This allows users to detect potential problems early and maintain system stabili
 
 </table>
 
----
-
-# 🖥 Interface Preview
-
-<p align="center">
-<img src="screenshot.png" width="850">
-</p>
-
----
-
 # 🧰 Technology Stack
 
 <p align="center">
