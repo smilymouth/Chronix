@@ -1,102 +1,125 @@
-<h1 align="center">⚡ CHRONIX — AI Hardware Health Predictor</h1>
+<h1 align="center">
+⚡ CHRONIX
+</h1>
+
+<h3 align="center">
+AI Hardware Health Predictor
+</h3>
 
 <p align="center">
-  <img src="logo.png" alt="Chronix Logo" width="220">
+<b>Predict • Detect • Prevent</b>
 </p>
 
 <p align="center">
-  <b>Predict • Detect • Prevent</b>
+<img src="logo.png" width="220">
 </p>
 
-<hr>
+<p align="center">
 
-<h2>🧠 Overview</h2>
+<img src="https://img.shields.io/github/stars/smilymouth/Chronix?style=for-the-badge">
+<img src="https://img.shields.io/github/forks/smilymouth/Chronix?style=for-the-badge">
+<img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/AI-ScikitLearn-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/GUI-PyQt5-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge">
 
-<p>
-<b>CHRONIX</b> is an AI-powered hardware monitoring and predictive maintenance system designed to analyze system health in real time.
 </p>
 
-<p>
-The application continuously monitors system metrics such as <b>CPU usage, RAM usage, temperature, rotational speed (RPM), and torque</b>.  
-Using a Machine Learning model, Chronix predicts potential hardware failures before they occur.
-</p>
+---
 
-<hr>
+# 🧠 About Chronix
 
-<h2>🚀 Features</h2>
+<b>CHRONIX</b> is an AI-powered system designed for **real-time hardware monitoring and predictive maintenance**.
 
-<ul>
-<li>📊 Real-time hardware monitoring</li>
-<li>🤖 Machine Learning based failure prediction</li>
-<li>📈 Live graphical visualization of system metrics</li>
-<li>🔁 Auto-refresh monitoring every second</li>
-<li>🧪 Custom dataset loader for training models</li>
-<li>📉 Compare previous vs current system states</li>
-<li>🌙 Modern dark themed interface</li>
-</ul>
+It continuously analyzes system metrics such as:
 
-<hr>
+• CPU Usage
+• RAM Usage
+• Temperature
+• Rotational Speed (RPM)
+• Torque
 
-<h2>🧰 Tech Stack</h2>
+Using **Machine Learning models**, Chronix predicts possible **hardware failures before they occur**.
+
+This allows users to detect potential problems early and maintain system stability.
+
+---
+
+# 🚀 Key Features
 
 <table>
 <tr>
-<th>Technology</th>
-<th>Purpose</th>
+<td>📊</td>
+<td><b>Real-time Monitoring</b><br>Track CPU, RAM, and temperature continuously.</td>
 </tr>
 
 <tr>
-<td>PyQt5</td>
-<td>Graphical User Interface</td>
+<td>🤖</td>
+<td><b>AI Failure Prediction</b><br>Random Forest ML model predicts hardware risks.</td>
 </tr>
 
 <tr>
-<td>psutil</td>
-<td>Hardware monitoring</td>
+<td>📈</td>
+<td><b>Live Graphs</b><br>Interactive visualization of hardware metrics.</td>
 </tr>
 
 <tr>
-<td>pandas</td>
-<td>Data processing</td>
+<td>⚙️</td>
+<td><b>Custom Dataset Loader</b><br>Train models using custom predictive datasets.</td>
 </tr>
 
 <tr>
-<td>scikit-learn</td>
-<td>Machine learning model</td>
-</tr>
-
-<tr>
-<td>matplotlib</td>
-<td>Real-time graphs</td>
+<td>🌙</td>
+<td><b>Modern Dark UI</b><br>Clean futuristic interface built with PyQt5.</td>
 </tr>
 
 </table>
 
-<hr>
+---
 
-<h2>🧠 Predictive Model</h2>
+# 🖥 Interface Preview
 
-<p>
-Chronix uses a <b>Random Forest Classifier</b> trained on a predictive maintenance dataset.
+<p align="center">
+<img src="screenshot.png" width="850">
 </p>
 
-<p>The model analyzes:</p>
+---
 
-<ul>
-<li>CPU Load</li>
-<li>RAM Usage</li>
-<li>Temperature (Kelvin)</li>
-<li>Rotational Speed (RPM)</li>
-<li>Torque (Nm)</li>
-</ul>
+# 🧰 Technology Stack
 
-<p>
-Based on these metrics, the model estimates the probability of potential hardware failures.
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python">
+
 </p>
 
-<hr>
+| Technology   | Purpose             |
+| ------------ | ------------------- |
+| PyQt5        | GUI Framework       |
+| psutil       | Hardware monitoring |
+| pandas       | Data processing     |
+| scikit-learn | Machine learning    |
+| matplotlib   | Real-time graphs    |
 
-<h2>📦 Project Structure</h2>
+---
+
+# 🧠 Machine Learning Model
+
+Chronix uses a **Random Forest Classifier** trained on a **predictive maintenance dataset**.
+
+The model evaluates system parameters such as:
+
+• CPU Load
+• RAM Usage
+• Temperature (Kelvin)
+• Rotational Speed (RPM)
+• Torque (Nm)
+
+The AI model then estimates the **probability of hardware failure**.
+
+---
+
+# 📂 Project Structure
 
 <pre>
 Chronix/
@@ -107,9 +130,11 @@ Chronix/
 └── README.md
 </pre>
 
-<hr>
+---
 
-<h2>💻 Installation</h2>
+# ⚙ Installation
+
+Clone the repository and install dependencies.
 
 <pre>
 git clone https://github.com/smilymouth/Chronix.git
@@ -118,38 +143,47 @@ pip install -r requirements.txt
 python Chronix.py
 </pre>
 
-<hr>
+---
 
-<h2>💬 Community</h2>
+# 💬 Community
 
-<p>
-Join the Discord community for feedback and discussions:
-</p>
-
-<p>
-<a href="https://discord.gg/tZ28bE8RN">Join Discord</a>
-</p>
-
-<hr>
-
-<h2>👨‍💻 Developer</h2>
-
-<p>
-<b>The Smiley Moon</b><br>
-Ethical Hacker • Developer • Creator of Chronix
-</p>
-
-<hr>
-
-<h2>🛡 License</h2>
-
-<p>
-Released under the <b>MIT License</b>.  
-Free to use, modify, and distribute with attribution.
-</p>
-
-<hr>
+Join the community for feedback and discussions.
 
 <p align="center">
-<b>⚡ CHRONIX — AI Powered Hardware Prediction ⚡</b>
+<a href="https://discord.gg/tZ28bE8RN">
+<img src="https://img.shields.io/badge/Join%20Discord-Community-blue?style=for-the-badge">
+</a>
+</p>
+
+---
+
+# 👨‍💻 Developer
+
+<p align="center">
+
+<b>The Smiley Moon</b><br>
+Ethical Hacker • ML Developer
+
+</p>
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+<p align="center">
+Give it a ⭐ on GitHub
+</p>
+
+---
+
+# 🛡 License
+
+Released under the **MIT License**.
+
+---
+
+<p align="center">
+⚡ CHRONIX — AI Powered Hardware Prediction
 </p>
