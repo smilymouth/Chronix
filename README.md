@@ -1,91 +1,155 @@
-<h1 align="center">
-  ⚡ CHRONIX — AI Hardware Predictor  
-</h1>
+<h1 align="center">⚡ CHRONIX — AI Hardware Health Predictor</h1>
+
 <p align="center">
-  <img src="logo.png" alt="Chronix Logo" width="250">
+  <img src="logo.png" alt="Chronix Logo" width="220">
 </p>
 
+<p align="center">
+  <b>Predict • Detect • Prevent</b>
+</p>
 
+<hr>
 
-<h3 align="center">
-  🧠 Predict. Detect. Prevent.  
-</h3>
+<h2>🧠 Overview</h2>
 
----
+<p>
+<b>CHRONIX</b> is an AI-powered hardware monitoring and predictive maintenance system designed to analyze system health in real time.
+</p>
 
-### 🧩 Overview  
-CHRONIX is an AI-powered hardware health prediction system designed for real-time monitoring and predictive maintenance.  
-It continuously analyzes CPU, RAM, Temperature, Torque, and RPM using Machine Learning to forecast potential failures before they occur.  
-You can share your feedbacks in
-https://discord.gg/tZ28bE8RN
-🌀 Featuring a dark futuristic GUI, auto-refresh every second, and interactive live graphs — fully VIBE CODED using PyQt5, psutil, pandas, scikit-learn, and matplotlib.
-> ⚠️ *Note: The AI ML Bot is externally integrated.*
+<p>
+The application continuously monitors system metrics such as <b>CPU usage, RAM usage, temperature, rotational speed (RPM), and torque</b>.  
+Using a Machine Learning model, Chronix predicts potential hardware failures before they occur.
+</p>
 
+<hr>
 
----
+<h2>🚀 Features</h2>
 
-### 🚀 Features  
-- 🔍 Real-time CPU, RAM, and Temperature tracking  
-- 🤖 AI-based hardware failure prediction (predictive_maintenance.csv)  
-- 📊 Live graph visualization (CPU, RAM, Temp, RPM, Torque)  
-- ⚙️ Manual dataset loader for training custom AI models  
-- 💡 Compare last vs current system states  
-- 🌑 Smooth futuristic dark UI  
+<ul>
+<li>📊 Real-time hardware monitoring</li>
+<li>🤖 Machine Learning based failure prediction</li>
+<li>📈 Live graphical visualization of system metrics</li>
+<li>🔁 Auto-refresh monitoring every second</li>
+<li>🧪 Custom dataset loader for training models</li>
+<li>📉 Compare previous vs current system states</li>
+<li>🌙 Modern dark themed interface</li>
+</ul>
 
----
+<hr>
 
-### 💻 Run Chronix
+<h2>🧰 Tech Stack</h2>
 
-> git clone https://github.com/smilymouth/Chronix.git
-> cd Chronix
-> pip install -r requirements.txt
-> python Chronix.py
+<table>
+<tr>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
 
-🧠 Predictive Model
-Chronix uses a Random Forest Classifier trained on a predictive maintenance dataset to estimate real-time failure probabilities.
-The model adapts dynamically to your system’s live stats, analyzing parameters like:
+<tr>
+<td>PyQt5</td>
+<td>Graphical User Interface</td>
+</tr>
 
-CPU Load
+<tr>
+<td>psutil</td>
+<td>Hardware monitoring</td>
+</tr>
 
-RAM Usage
+<tr>
+<td>pandas</td>
+<td>Data processing</td>
+</tr>
 
-Temperature (Kelvin)
+<tr>
+<td>scikit-learn</td>
+<td>Machine learning model</td>
+</tr>
 
-Rotational Speed (RPM)
+<tr>
+<td>matplotlib</td>
+<td>Real-time graphs</td>
+</tr>
 
-Torque (Nm)
+</table>
 
-📦 Folder Structure
+<hr>
 
+<h2>🧠 Predictive Model</h2>
+
+<p>
+Chronix uses a <b>Random Forest Classifier</b> trained on a predictive maintenance dataset.
+</p>
+
+<p>The model analyzes:</p>
+
+<ul>
+<li>CPU Load</li>
+<li>RAM Usage</li>
+<li>Temperature (Kelvin)</li>
+<li>Rotational Speed (RPM)</li>
+<li>Torque (Nm)</li>
+</ul>
+
+<p>
+Based on these metrics, the model estimates the probability of potential hardware failures.
+</p>
+
+<hr>
+
+<h2>📦 Project Structure</h2>
+
+<pre>
 Chronix/
 │
 ├── Chronix.py
 ├── predictive_maintenance.csv
 ├── requirements.txt
 └── README.md
+</pre>
 
-🔥 VIBE CODED
-This entire MVP (excluding the AI ML bot) is VIBE CODED — blending art, code, and intelligence into one ecosystem.
-Every pixel and prediction is tuned to reflect The Smiley Moon’s futuristic design philosophy.
+<hr>
 
-🧰 Tech Stack
-Module Purpose
-PyQt5 GUI Framework
-psutil Hardware Data Monitoring
-pandas Data Processing
-scikit-learn AI/ML Model
-matplotlib Real-time Graphs
+<h2>💻 Installation</h2>
 
-📥 Download
-Grab the latest ZIP release directly from GitHub:
-🔗 Download Chronix
+<pre>
+git clone https://github.com/smilymouth/Chronix.git
+cd Chronix
+pip install -r requirements.txt
+python Chronix.py
+</pre>
 
-👨‍💻 Developer
-The Smiley Moon
-Founder — VIBE CODED
-💻 Ethical Hacker | ML Developer | Creator of Chronix
+<hr>
 
-🛡️ License
-Released under the MIT License — free to use, modify, and share with proper credit.
+<h2>💬 Community</h2>
 
-<p align="center"> <b>⚡ VIBE CODED | Predict. Detect. Prevent. ⚡</b> </p>
+<p>
+Join the Discord community for feedback and discussions:
+</p>
+
+<p>
+<a href="https://discord.gg/tZ28bE8RN">Join Discord</a>
+</p>
+
+<hr>
+
+<h2>👨‍💻 Developer</h2>
+
+<p>
+<b>The Smiley Moon</b><br>
+Ethical Hacker • Developer • Creator of Chronix
+</p>
+
+<hr>
+
+<h2>🛡 License</h2>
+
+<p>
+Released under the <b>MIT License</b>.  
+Free to use, modify, and distribute with attribution.
+</p>
+
+<hr>
+
+<p align="center">
+<b>⚡ CHRONIX — AI Powered Hardware Prediction ⚡</b>
+</p>
